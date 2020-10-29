@@ -1,14 +1,33 @@
 
 
-/* Start my rules*/
+/* Start my rules--------------------------*/
+
+
 
 span.titre-en-tete {
-    font-family: 'Kingthings Petrock Light', 'Comic sans ms'; 
-    font-size: 36px;
+    font-family: 'Comic sans ms', 'sans serif'; 
+    font-size: 32px;
     font-weight: 400;
 }
 
-/* End my rules  */
+p.texte-sur-icones {
+    font-size: 22px;
+}
+
+#citation-text {
+    color:#bf7959 !important;
+    font-style: italic; 
+}
+
+span.quote-symbol {
+    font-size: 52px;
+    color:#bf7959 !important;
+}
+
+h2.eclairage {
+    color:#f3976c !important ;
+}
+/* End my rules  ----------------------*/
 
 
 
@@ -700,7 +719,7 @@ a {
 }
 
 p {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -796,15 +815,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #f3976c ;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #f3976c !important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #f3976c ;
     color: #FFFFFF!important;
 }
 
@@ -822,7 +841,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #f3976c !important;
 }
 
 .ltc-atomic-tangerine:hover {
