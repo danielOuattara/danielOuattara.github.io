@@ -1,15 +1,14 @@
-@font-face {
-    font-family: 'Kingthings Petrock Light';
-    src: url('./fonts/Kingthings\ Petrock\ light.ttf') format('ttf');
-}
 
-/* my rules*/
+
+/* Start my rules*/
 
 span.titre-en-tete {
     font-family: 'Kingthings Petrock Light', 'Comic sans ms'; 
     font-size: 36px;
     font-weight: 400;
 }
+
+/* End my rules  */
 
 
 
