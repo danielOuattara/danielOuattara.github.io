@@ -131,7 +131,7 @@ blockquote  {
             color: $txt-primary-color !important;
             text-decoration: none!important;
             border-radius: 30px;
-            padding: 10px 20px;
+            padding: 10px 10px;
     
             background-color: hsla(0, 0%, 17%, 0.65)!important;
             
@@ -179,6 +179,7 @@ blockquote  {
     
     &:hover {
         color: hsl(0, 0%, 10%)!important;
+        background-color: #fff!important;
     }
     &:focus {
         color: hsl(0, 0%, 10%)!important;
