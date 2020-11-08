@@ -1,0 +1,186 @@
+
+$bg-primary-color: #f3976c;
+$txt-primary-color: #f3976c;
+
+* {
+    overflow-x: hidden!important;
+}
+
+.navbar-brand {
+    border-radius:5px;
+
+    span {
+        font-family: 'Courier New', Courier, monospace;
+        // font-size: 26px;
+    }
+
+    &:hover {
+        background-color: lighten($bg-primary-color, 10%)!important;
+
+        & span {
+            color: hsl(0, 0%, 20%);         
+        }
+    }
+    &:focus {
+        background-color: $bg-primary-color;
+    }
+}
+/*--------------------------------------------------------------------------*/
+
+button#nav-toggle{
+    color:#000 !important;
+    background-color: lighten($bg-primary-color, 15%)!important;
+
+    &:hover {
+        background-color: $bg-primary-color!important;            
+    }
+
+    &:focus{
+        background-color: $bg-primary-color!important;
+    }
+}
+/*--------------------------------------------------------------------------*/
+
+.navbar-nav > li >a {
+    border-radius: 5px;
+    color: hsl(0, 0%, 12%)!important;
+
+    &:hover {
+        background: $bg-primary-color;
+    }
+    
+    &:focus {
+        background: $bg-primary-color;
+    }
+}
+/*--------------------------------------------------------------------------*/
+
+h1#index-html {
+    background-color: hsla(0, 0%, 17%, 0.65);
+    border-radius: 10px;
+    padding: 5px;
+    color: lighten($txt-primary-color, 5%)!important;
+}
+/*--------------------------------------------------------------------------*/
+
+a#cta-hero-1, a#cta-hero-2 {
+    background-color: hsla(0, 0%, 0%, 0.5);
+    color:lighten($txt-primary-color, 5%)!important;
+
+    &:hover {
+        color: hsla(0, 0%, 0%, 0.75)!important;
+        background-color:$bg-primary-color !important;
+    }
+    &:focus {
+        color: hsla(0, 0%, 0%, 0.75)!important;
+        background-color: lighten($txt-primary-color, 10%) !important;
+        
+    }
+}
+/*--------------------------------------------------------------------------*/
+
+.col-sm-4 .text-center {
+    font-size: 16px;
+ }
+
+
+/*--------------------------------------------------------------------------*/
+
+blockquote  {
+    background-color: lighten(#000, 25%);
+    border-radius:  2px 50px 5px 50px;
+    margin: 20px;
+    padding: 15px;
+}
+
+#citation-text {
+    font-size: 16px;
+    // background-color: $bg-primary-color;
+    color:$txt-primary-color!important;
+}
+
+.quote-symbol {
+    font-size: 50px;
+}
+
+#footer-citation {
+    color: #fff;
+}
+
+/*--------------------------------------------------------------------------*/
+
+.col-sm-12 {
+
+    & h2.collaboration-1 {
+        padding: 30px 20px; 
+        border-radius: 10px;
+
+        background-color: hsla(0, 0%, 17%, 0.70);
+        color: lighten($txt-primary-color, 5%)!important;
+
+    }
+    
+    & p.collaboration-2 {
+        background-color: hsla(0, 0%, 17%, 0.65);
+        font-size: 16px;
+        padding: 20px;
+        padding: 30px 20px; 
+        border-radius: 10px;
+        
+        & a {
+            color: $txt-primary-color !important;
+            text-decoration: none!important;
+            border-radius: 30px;
+            padding: 10px 20px;
+    
+            background-color: hsla(0, 0%, 17%, 0.65)!important;
+            
+            &:hover {
+                background-color: $bg-primary-color!important;
+                color: hsl(0, 0%, 10%)!important;  
+            }
+
+            &:focus {
+                background-color: $bg-primary-color!important;
+                color: hsl(0, 0%, 10%)!important;  
+            }
+        }
+    }
+}
+/*--------------------------------------------------------------------------*/
+
+.col-sm-6 .h3-portfolio {
+    font-size: 20px;
+}
+.col-sm-6 .p-portfolio {
+    font-size: 16px;
+}
+/*--------------------------------------------------------------------------*/
+
+.h2-final {
+    background-color: hsla(0, 0%, 17%, 0.65);
+    border-radius: 10px;
+    padding: 5px;
+    color: lighten($txt-primary-color, 5%)!important;
+}
+
+
+/*--------------------------------------------------------------------------*/
+
+.col-sm-12 .p-footer {
+    font-size: 16px;
+    color: hsl(0, 0%, 20%)!important;
+}
+
+/*--------------------------------------------------------------------------*/
+
+.col-sm-3 .text-center .fa {
+    color: hsl(0, 0%, 30%)!important;
+    
+    &:hover {
+        color: hsl(0, 0%, 10%)!important;
+    }
+    &:focus {
+        color: hsl(0, 0%, 10%)!important;
+    }
+}
