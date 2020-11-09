@@ -174,14 +174,26 @@ blockquote  {
 
 /*--------------------------------------------------------------------------*/
 
-.col-sm-3 .text-center .fa {
-    color: hsl(0, 0%, 30%)!important;
+
+
+a.social {
+    padding: 10px!important;
+}
+
+.col-sm-3 .text-center .fa  {
+ 
+    color: hsl(0, 0%, 15%)!important;
+    font-size: 18px!important;
     
     &:hover {
         color: hsl(0, 0%, 10%)!important;
-        background-color: #fff!important;
+        font-size: 22px!important;
     }
     &:focus {
-        color: hsl(0, 0%, 10%)!important;
+        text-decoration: none!important;
+        color:$bg-primary-color;
+        font-size: 22px!important;
+        background-color: #000;
     }
 }
+
