@@ -178,6 +178,12 @@ blockquote  {
 
 /*--------------------------------------------------------------------------*/
 
+
+
+a.social {
+    color: hsl(0, 0%, 15%)!important;
+}
+
 .col-sm-3 .text-center .fa  {
  
     color: hsl(0, 0%, 15%)!important;
@@ -188,7 +194,7 @@ blockquote  {
         font-size: 22px!important;
     }
     &:focus {
-        // text-decoration: none!important;
+        text-decoration: none!important;
         color:$bg-primary-color;
         font-size: 22px!important;
         background-color: #000;
