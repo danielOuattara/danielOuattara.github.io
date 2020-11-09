@@ -6,8 +6,9 @@ $txt-primary-color: #f3976c;
     border-radius:5px;
 
     span {
-        font-family: 'Courier New', Courier, monospace;
-        // font-size: 26px;
+        font-family: 'Berkshire Swash', cursive;
+        font-size: 32px;
+        font-weight: lighter;
     }
 
     &:hover {
@@ -241,3 +242,15 @@ a.social {
     }
 }
 
+
+footer h2 span {
+    font-family: 'Berkshire Swash', cursive;
+        font-size: 28px;
+        font-weight: lighter;
+        background-color: darken($bg-primary-color, 10%);
+        display: inline-block;
+        padding: 10px;
+        border-radius: 10px;
+
+
+}

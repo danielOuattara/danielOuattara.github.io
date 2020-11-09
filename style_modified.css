@@ -3,7 +3,9 @@
 }
 
 .navbar-brand span {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 32px;
+  font-weight: lighter;
 }
 
 .navbar-brand:hover {
@@ -214,4 +216,14 @@ a.social {
 .button-envoyer:focus {
   background-color: #4d4d4d !important;
   color: #f3976c !important;
+}
+
+footer h2 span {
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 28px;
+  font-weight: lighter;
+  background-color: #ef763d;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10px;
 }
