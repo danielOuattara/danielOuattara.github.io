@@ -58,13 +58,13 @@ button#nav-toggle{
 h1#index-html {
     background-color: hsla(0, 0%, 17%, 0.65);
     border-radius: 10px;
-    padding: 5px;
+    padding:10px 5px;
     color: lighten($txt-primary-color, 5%)!important;
 }
 /*--------------------------------------------------------------------------*/
 
 a#cta-hero-1, a#cta-hero-2 {
-    background-color: hsla(0, 0%, 0%, 0.5);
+    background-color: hsla(0, 0%, 0%, 0.65);
     color:lighten($txt-primary-color, 5%)!important;
 
     &:hover {
@@ -158,18 +158,26 @@ blockquote  {
 /*--------------------------------------------------------------------------*/
 
 .h2-final {
-    background-color: hsla(0, 0%, 17%, 0.65);
+    background-color: hsla(0, 0%, 15%, 0.75);
     border-radius: 10px;
     padding: 5px;
-    color: lighten($txt-primary-color, 5%)!important;
+    color: lighten($txt-primary-color, 15%)!important;
+    font-size: 24px!important;
 }
 
 
 /*--------------------------------------------------------------------------*/
 
-.col-sm-12 .p-footer {
-    font-size: 16px;
+.col-sm-12 .h2-footer{
+    font-size: 18px;
     color: hsl(0, 0%, 20%)!important;
+    border-radius: 10px;
+}
+
+.coordonnees {
+    font-size: 16px;
+    margin: 30px;
+    color: hsl(0, 0%, 25%)!important;
 }
 
 /*--------------------------------------------------------------------------*/
@@ -190,12 +198,50 @@ a.social {
         font-size: 22px!important;
     }
     &:focus {
-        text-decoration: none!important;
+        // text-decoration: none!important;
         color:$bg-primary-color;
         font-size: 22px!important;
         background-color: #000;
     }
 }
 
+/*===================================================================================*/
 
+#bloc-6 {
+    background-color: lighten($bg-primary-color, 10%)!important;
+}
+
+.col-sm-12 {
+     .h1-bloc-6 {
+         color: hsla(0, 0%, 5%, 0.85)!important;
+        margin-bottom: 20px;
+    }
+
+    .p-bloc-6 {
+        font-size: 16px;
+        //  color: $txt-primary-color;
+        color: hsl(0, 0%, 80%)!important;
+
+         background-color: hsla(0, 0%, 10%, 0.75)!important;
+         border-radius: 10px;    
+    }
+}
+
+.button-envoyer {
+    font-size: 20px!important;
+    color: hsl(0, 0%, 25%)!important;
+    border: 1px solid hsl(0, 0%, 50%);
+
+    &:hover{
+        background-color: hsl(0, 0%, 30%)!important;
+        color: $txt-primary-color!important;
+        
+    }
+    
+    &:focus{
+        background-color: hsl(0, 0%, 30%)!important;
+        color: $txt-primary-color!important;
+        
+    }
+}
 
